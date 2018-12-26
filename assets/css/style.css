@@ -13,6 +13,13 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
+@font-face {
+font-family:'TheLightFont';
+src: url('assets/fonts/TheLightFont.otf') format('otf');
+font-weight: normal;
+font-style: normal;
+}
+
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
@@ -26,19 +33,19 @@ body {
 	margin: 0;
 	height: 100%;
 	color: #384452;
-	font-family: 'Lato', sans-serif;
+	font-family: 'TheLightFont',sans-serif;
 	font-weight: 400;
 	}
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'TheLightFont',sans-serif;
 	font-weight: 700;
 }
 
 p {
 	padding: 0;
 	margin-bottom: 12px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'TheLightFont',sans-serif;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
@@ -92,7 +99,7 @@ a:focus {
 }
 
 .navbar-brand {
-		 font-family: 'BebasNeueRegular';
+		 font-family: 'TheLightFont',sans-serif;
 	   font-weight: normal;
 	   font-style: normal;
 		 font-size: 30px;
@@ -447,7 +454,7 @@ csmall2 {
 	}
 
 .popular-posts li em {
-	font-family: 'Lato', sans-serif;
+	font-family: 'TheLightFont',sans-serif;
 	font-size: 12px;
 	color: #b3b3b3
 	}

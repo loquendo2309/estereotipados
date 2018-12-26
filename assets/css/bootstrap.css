@@ -5,8 +5,14 @@
  */
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+@font-face {
+font-family:'TheLightFont';
+src: url('assets/fonts/TheLightFont.otf') format('otf');
+font-weight: normal;
+font-style: normal;
+}
 html {
-  font-family: sans-serif;
+  font-family: TheLightFont, sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
@@ -273,7 +279,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, verdana, TheLightFont;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
